@@ -1,16 +1,25 @@
 {
-  "name": "my-drawing-app",
+  "name": "y-chat-paint",
   "version": "1.0.0",
-  "description": "",
+  "description": "A real-time drawing application.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "drawing",
+    "chat",
+    "socket.io",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "pg": "^8.11.5",
     "socket.io": "^4.7.5"
   },
   "engines": {
